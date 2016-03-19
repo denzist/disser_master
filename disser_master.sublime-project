@@ -8,7 +8,7 @@
   "settings":
   {
     "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-    "dictionary": "Packages/Russian.dic",
+    "dictionary": "Packages/russian-english.dic",
     "font_size": 10,
     "ignored_packages":
     [
@@ -20,5 +20,5 @@
     "default_encoding": "Cyrillic (Windows 1251)",
     "fallback_encoding": "Cyrillic (Windows 1251)"
   }
-  
+
 }
