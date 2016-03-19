@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "settings":
+  {
+    "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+    "dictionary": "Packages/Russian.dic",
+    "font_size": 10,
+    "ignored_packages":
+    [
+      "Vintage"
+    ],
+    "tab_size": 2,
+    "show_encoding" : true,
+    "translate_tabs_to_spaces": true,
+    "default_encoding": "Cyrillic (Windows 1251)",
+    "fallback_encoding": "Cyrillic (Windows 1251)"
+  }
+  
+}

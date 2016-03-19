@@ -1,0 +1,983 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"base",
+				"base_link"
+			],
+			[
+				"sonar",
+				"sonar_name"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"tf",
+				"tf_time"
+			],
+			[
+				"son",
+				"sonars_ptr"
+			],
+			[
+				"print",
+				"print_graph"
+			],
+			[
+				"pre",
+				"prev_flow_"
+			],
+			[
+				"tot",
+				"total_flow"
+			],
+			[
+				"psi",
+				"psi_"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"end",
+				"end_flg_"
+			],
+			[
+				"max",
+				"max_psi_and_linear_apprx_"
+			],
+			[
+				"ite",
+				"iteration_step_"
+			],
+			[
+				"ste",
+				"iteration_step_"
+			],
+			[
+				"ege",
+				"edge_info"
+			],
+			[
+				"gamm",
+				"gamma_"
+			],
+			[
+				"curr",
+				"curr_flow_"
+			],
+			[
+				"edge",
+				"edge_info"
+			],
+			[
+				"wa",
+				"walk_through_graph"
+			],
+			[
+				"ver",
+				"vertex_it"
+			],
+			[
+				"ve",
+				"vertex_with_min_dist"
+			],
+			[
+				"path",
+				"path_ptr"
+			],
+			[
+				"info",
+				"info_map"
+			],
+			[
+				"prev",
+				"prev_vertex"
+			],
+			[
+				"gra",
+				"grap_ptr"
+			],
+			[
+				"corr",
+				"corr_vec"
+			],
+			[
+				"disc",
+				"disc_flow"
+			],
+			[
+				"gr",
+				"graph_it"
+			],
+			[
+				"new",
+				"new_cost"
+			],
+			[
+				"co",
+				"corr_ptr_vec_"
+			],
+			[
+				"Corr",
+				"CorrespondenceVec"
+			],
+			[
+				"D",
+				"Dijkstra"
+			],
+			[
+				"Edge",
+				"EdgeVec"
+			],
+			[
+				"Ed",
+				"Edge"
+			],
+			[
+				"start",
+				"start_ptr"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"Gr",
+				"Graph"
+			],
+			[
+				"st",
+				"start_end_"
+			],
+			[
+				"inf",
+				"info_map"
+			],
+			[
+				"pa",
+				"path_ptr"
+			],
+			[
+				"ge",
+				"get_edges"
+			],
+			[
+				"E",
+				"EdgeInfo"
+			],
+			[
+				"fin",
+				"finish_ptr"
+			],
+			[
+				"prev_ve",
+				"prev_vertex_ptr"
+			],
+			[
+				"ende",
+				"ended_node_info"
+			],
+			[
+				"Pe",
+				"PEdge"
+			],
+			[
+				"ed",
+				"edge_ptr_2_1"
+			],
+			[
+				"it",
+				"it_edge"
+			],
+			[
+				"edg",
+				"edges_ptr_vec"
+			],
+			[
+				"PEd",
+				"PEdgeVec"
+			],
+			[
+				"in",
+				"inf"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"out",
+				"out_ptr"
+			],
+			[
+				"int",
+				"in_ptr"
+			],
+			[
+				"ou",
+				"out_ptr"
+			],
+			[
+				"w",
+				"weight_"
+			],
+			[
+				"wei",
+				"weight"
+			],
+			[
+				"no",
+				"node_ptr_2"
+			],
+			[
+				"n",
+				"node_ptr_1"
+			],
+			[
+				"pr",
+				"private"
+			],
+			[
+				"we",
+				"weight"
+			],
+			[
+				"en",
+				"ended_node_ptr"
+			],
+			[
+				"sns",
+				"sensor_msgs"
+			],
+			[
+				"cl",
+				"cloud2"
+			],
+			[
+				"Point",
+				"PointCloud2"
+			],
+			[
+				"run",
+				"run_depend"
+			],
+			[
+				"bu",
+				"build_depend"
+			],
+			[
+				"tf_",
+				"tf_flag_"
+			],
+			[
+				"cur",
+				"cur_ang_vel_"
+			],
+			[
+				"init",
+				"init_ang_vel"
+			],
+			[
+				"img",
+				"img_rslt"
+			],
+			[
+				"th",
+				"threshold_mask"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"imag",
+				"img_name"
+			],
+			[
+				"ima",
+				"img_name"
+			],
+			[
+				"grd",
+				"grad_flg"
+			],
+			[
+				"he",
+				"hello_time"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"fr",
+				"friend"
+			],
+			[
+				"fre",
+				"friends_dict"
+			],
+			[
+				"fi",
+				"friend"
+			],
+			[
+				"set",
+				"setattr"
+			],
+			[
+				"clas",
+				"calss_wrapper"
+			],
+			[
+				"fri",
+				"friend"
+			],
+			[
+				"ma",
+				"make_event_handler"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"li",
+				"listener_1"
+			],
+			[
+				"event",
+				"event_handler"
+			],
+			[
+				"fire",
+				"friends"
+			],
+			[
+				"frien",
+				"friend"
+			],
+			[
+				"even",
+				"event_handler"
+			],
+			[
+				"Se",
+				"ServiceA"
+			],
+			[
+				"serv",
+				"service_a"
+			],
+			[
+				"q",
+				"q"
+			],
+			[
+				"comm",
+				"command_is_done"
+			],
+			[
+				"tra",
+				"tran_id"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"tr",
+				"transactions"
+			],
+			[
+				"T",
+				"T"
+			],
+			[
+				"fail",
+				"failed_writes_per_client"
+			],
+			[
+				"fa",
+				"failed_writes_t"
+			],
+			[
+				"failed",
+				"failed_writes"
+			],
+			[
+				"ra",
+				"range"
+			],
+			[
+				"fai",
+				"failed_writes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "disser_master.sublime-project",
+			"settings":
+			{
+				"buffer_size": 452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.bib",
+			"settings":
+			{
+				"buffer_size": 2680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.tex",
+			"settings":
+			{
+				"buffer_size": 3153,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 243.0,
+		"last_filter": "mak",
+		"selected_items":
+		[
+			[
+				"mak",
+				"Set Syntax: Makefile"
+			],
+			[
+				"ma",
+				"Set Syntax: Makefile"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"x",
+				"Set Syntax: XML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"/home/den/workspace/graphics/task2.py",
+			"ls",
+			"python /home/den/workspace/graphics/task2.py",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/den/workspace/disser_master"
+	],
+	"file_history":
+	[
+		"/home/den/workspace/disser/templates/master (copy)/thesis.tex",
+		"/home/den/workspace/disser/templates/master/thesis.tex",
+		"/home/den/workspace/disser/README.ru",
+		"/home/den/workspace/disser_master/thesis.tex",
+		"/home/den/workspace/disser_master/disser_master.sublime-project",
+		"/home/den/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/den/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/den/workspace/disser_master/app-a.tex",
+		"/home/den/workspace/master/1.tex",
+		"/home/den/workspace/disser/README",
+		"/home/den/workspace/master/thesis.tex",
+		"/home/den/swarm0/ros/src/tf_broadcaster/urdf/model.xacro",
+		"/home/den/swarm0/ros/src/grid_mapping/launch/mapping.launch",
+		"/home/den/swarm0/ros/src/grid_mapping/src/tf_fix_node.cpp",
+		"/home/den/swarm0/ros/src/grid_mapping/config/forward_config.json",
+		"/home/den/swarm0/ros/src/grid_mapping/config/exponent_config.json",
+		"/home/den/workspace/graphics/presentation/cg.tex",
+		"/home/den/.config/sublime-text-3/Packages/ru_RU_yo.dic",
+		"/home/den/.config/sublime-text-3/Packages/ru_RU_yo.aff",
+		"/home/den/swarm0/ros/src/grid_mapping/config/inverse_config.json",
+		"/home/den/.ssh/id_rsa.pub",
+		"/home/den/workspace/mipt2015/images/inv_room_ex.png",
+		"/home/den/workspace/mipt2015/images/line_ex.png",
+		"/home/den/workspace/mipt2015/images/inv_line_ex.png",
+		"/home/den/workspace/mipt2015/images/f_ex.png",
+		"/home/den/workspace/graphics/presentation/cg.pdf",
+		"/home/den/workspace/traffic_flows/include/traffic_flows/optimizer.h",
+		"/home/den/workspace/traffic_flows/include/traffic_flows/graph.h",
+		"/home/den/workspace/traffic_flows/src/graph.cpp",
+		"/home/den/workspace/traffic_flows/CMakeLists.txt",
+		"/home/den/workspace/traffic_flows/src/demo.cpp",
+		"/home/den/workspace/traffic_flows/include/traffic_flows/traffic_flows.h",
+		"/etc/X11/xorg.conf.fglrx-0",
+		"/home/den/workspace/traffic_flows/src/optimizer.cpp",
+		"/home/den/workspace/traffic_flows/src/traffic_graph.cpp",
+		"/home/den/workspace/CMakeList.txt",
+		"/home/den/workspace/traffic_flows/main.cpp",
+		"/home/den/workspace/graphics/presentation/images/octomap_multi-res.png",
+		"/home/den/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/den/Desktop/test.py",
+		"/home/den/ros_workspace/src/octomap_buggy_demo/CMakeLists.txt",
+		"/home/den/ros_workspace/src/octomap_buggy_demo/src/scan_to_point_cloud_tf.cpp",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_description/urdf/buggy_model.xacro",
+		"/home/den/ros_workspace/src/gazebo_staff/ground_truth_publisher_plugin/include/ground_truth_publisher_plugin/ground_truth_publisher_plugin.h",
+		"/home/den/ros_workspace/src/octomap_buggy_demo/package.xml",
+		"/home/den/ros_workspace/src/gazebo_staff/ground_truth_publisher_plugin/src/ground_truth_publisher_plugin.cpp",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_description/urdf/buggy.xacro",
+		"/home/den/ros_workspace/src/octomap_buggy_demo/world/willow_garage.world",
+		"/home/den/ros_workspace/src/octomap_buggy_demo/launch/willow_garage_world.launch",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_gazebo/worlds/willow_garage.world",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_gazebo/launch/willow_garage_world/buggy_with_tilt_unit_teleop.launch",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_gazebo/launch/willow_garage_world/willow_garage_world.launch",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_controller/CMakeLists.txt",
+		"/home/den/ros_workspace/src/joy_teleop/src/joy_teleop.cpp",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_gazebo/launch/joy_teleop.launch",
+		"/home/den/ros_workspace/src/joy_teleop/launch/joy_teleop.launch",
+		"/home/den/ros_workspace/src/adaptive_control/adaptive_controller/launch/controller.launch",
+		"/home/den/workspace/graphics/task2/row_mixed_example.png",
+		"/home/den/workspace/graphics/task2/example_palette.png",
+		"/home/den/workspace/graphics/task2/fs_mixed_example_palette.png",
+		"/home/den/workspace/graphics/task2.py",
+		"/home/den/workspace/graphics/fs_mixed_example.png",
+		"/home/den/workspace/graphics/row_mixed_example.png",
+		"/home/den/workspace/graphics/row_forward_example.png",
+		"/home/den/workspace/graphics/rand_threshold_example.png",
+		"/home/den/workspace/graphics/threshold_example.png",
+		"/home/den/workspace/graphics/dith_with_rand_threshold_example.png",
+		"/home/den/workspace/graphics/ordered_threshold_example.png",
+		"/home/den/workspace/graphics/dith_with_rand_border_example.png",
+		"/home/den/workspace/graphics/example.png",
+		"/home/den/workspace/graphics/grad_y_example.png",
+		"/home/den/workspace/graphics/grad_x_example.png",
+		"/home/den/workspace/graphics/dith_with_border_example.png",
+		"/home/den/workspace/graphics/dith_with_borderexample.png",
+		"/home/den/workspace/graphics/gras_x_example.png",
+		"/home/den/workspace/graphics/gras_y_example.png",
+		"/home/den/workspace/graphics/lena.png",
+		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_description/CMakeLists.txt",
+		"/home/den/ros_workspace/src/adaptive_control/adaptive_controller/py_src/bayes_learning.py",
+		"/home/den/ros_workspace/src/adaptive_control/adaptive_controller/py_src/learning_node.py",
+		"/home/den/iitp/swarm0/readme.md",
+		"/home/den/.ssh/config",
+		"/tmp/rsub-txv_gc/topics.txt",
+		"/home/den/.bashrc",
+		"/media/den/KINGSTON/autorun.inf",
+		"/home/den/iitp/swarm0/CMakeLists.txt",
+		"/home/den/optical_flow/image_processing.tpp",
+		"/home/den/iitp.txt.pub",
+		"/home/den/rsa.pub",
+		"/home/den/iitp.txt",
+		"/home/den/optical_flow/optical_flow.pro",
+		"/home/den/lucas_kanade/main.cpp",
+		"/home/den/optical_flow/include/gui/gui.pri",
+		"/home/den/optical_flow/image_filtering.tpp",
+		"/home/den/smp_test/image_processing.tpp",
+		"/home/den/Desktop/lk/LucasKanade.m",
+		"/home/den/Desktop/lk/HierarchicalLK.m",
+		"/home/den/smp_test2/smp_test/image_processing.tpp",
+		"/home/den/Desktop/lk/LucasKanadeRefined.m",
+		"/home/den/smp_test/matrix.tpp",
+		"/home/den/.cache/.fr-kUE11P/GPExpand.m",
+		"/home/den/smp_test2/smp_test/main.cpp",
+		"/home/den/test3/main.cpp",
+		"/home/den/test3/color.tpp",
+		"/home/den/smp_test/color.tpp",
+		"/home/den/smp_test2/smp_test/image_processing.h",
+		"/home/den/LKPR.m",
+		"/home/den/.cache/.fr-HwaJOP/LKPR.m",
+		"/home/den/klt/pyramid.c",
+		"/home/den/klt/klt.c",
+		"/home/den/flow-code/colorcode.cpp",
+		"/home/den/flow-code/color_flow.cpp",
+		"/home/den/.cache/.fr-UNwJde/devkit/readme.txt",
+		"/home/den/flow-code/colortest.cpp",
+		"/home/den/flow-code/colorcode.h",
+		"/home/den/flow-code/imageLib/README.txt",
+		"/home/den/shepelev-denis-073/task10/service_b.py",
+		"/home/den/shepelev-denis-073/task10/test.py",
+		"/home/den/shepelev-denis-073/task10/service_a.py",
+		"/home/den/shepelev-denis-073/task10/blockade.yml",
+		"/home/den/Downloads/2/22.py",
+		"/home/den/.cache/.fr-fpJYGw/multiagent-master/homework1/report.md",
+		"/home/den/.cache/.fr-vm6vzL/multiagent-master/homework1/WildDogs_Ch16-Ex3.nlogo",
+		"/home/den/Downloads/2/config.yaml",
+		"/home/den/Downloads/2/Dockerfile",
+		"/home/den/Downloads/2/get_info.sh",
+		"/home/den/.cache/.fr-eJbl3C/2/tst_part.py",
+		"/home/den/.cache/.fr-tC4S4X/2/serv_start.sh"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			"<current file>",
+			"<open files>",
+			"<current file>",
+			"<open files>",
+			"src/",
+			"src",
+			"<open folders>",
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"point",
+			"c",
+			"c++",
+			"С",
+			"in",
+			"ij",
+			"незав",
+			"дан",
+			"даные",
+			"print_graph_adsdasdad",
+			"curr_flow_",
+			"prev_flow_",
+			"prev_pvertex",
+			"prev_pvertex_",
+			"PVertex",
+			"int",
+			"PVertex",
+			"EdgeVec",
+			"EdgeSet",
+			"PEdgeVec",
+			"DijkstraInfoSet",
+			"info_set",
+			"info_vec",
+			"info_set",
+			"node",
+			"Node",
+			"ите",
+			"недостатки",
+			"buggy_contro",
+			"controller",
+			"#*",
+			"threshold_mask",
+			"border",
+			"type",
+			"self",
+			"state_",
+			"test",
+			"lock"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"opt_curr_flow_",
+			"opt_prev_flow_",
+			"prev_vertex",
+			"prev_vertex_",
+			"ulong",
+			"long uint",
+			"long int",
+			"PVertex",
+			"int",
+			"Edges",
+			"EdgeMap",
+			"EdgeVec",
+			"EdgeSet",
+			"DijkstraInfoMap",
+			"info_map",
+			"info_set",
+			"info_vec",
+			"vertex",
+			"Vertex",
+			"",
+			"threshold"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "disser_master.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "thesis.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "thesis.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								725,
+								725
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 163.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "disser_master.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sonar_to",
+				"ros/src/cerebellum/src/sonars_to_ros_range_node.cpp"
+			],
+			[
+				"tf_broa",
+				"ros/src/tf_broadcaster/src/tf_broadcaster_node.cpp"
+			],
+			[
+				"dem",
+				"octomap_buggy_demo/launch/demo.launch"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

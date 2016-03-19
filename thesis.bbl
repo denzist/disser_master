@@ -1,0 +1,81 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{Yoffe_1993_AP_42_173}
+\selectlanguageifdefined{english}
+\BibEmph{Yoffe~A.~D.} Low-dimensional systems: quantum size effects and
+  electronic properties of semiconductor microcrystallites (zero-dimensional
+  systems) and some quasi-two-dimensional systems~//
+  \href{http://dx.doi.org/10.1080/00018739300101484}{\BibEmph{Adv. Phys.}}
+\newblock 1993.
+\newblock Vol.~42.
+\newblock P.~173--266.
+
+\bibitem{Efros_1982_FTP_16_7_1209}
+\selectlanguageifdefined{russian}
+\BibEmph{Эфрос~{\relax Ал}.~Л., Эфрос~А.~Л.} Межзонное поглощение света в
+  полупроводниковом шаре~// \BibEmph{Физика и техника полупроводников}.
+\newblock 1982.
+\newblock {\cyr\CYRT.}~16, {\cyr\textnumero}~7.
+\newblock {\cyr\CYRS.}~1209--1214.
+
+\bibitem{Anselm_1978}
+\selectlanguageifdefined{russian}
+\BibEmph{Ансельм~А.~И.} Введение в теорию полупроводников.
+\newblock Москва: Наука, 1978.
+
+\bibitem{Segall_1968}
+\selectlanguageifdefined{english}
+\BibEmph{Segall~B.}~// Proceedings of IXth Conference on the Physics of
+  Semiconductors, Moscow, 1968~/ Ed. by S.~M.~Ryvkin.
+\newblock Leningrad: Nauka, 1968.
+\newblock P.~425.
+
+\bibitem{Agranovich_1983}
+\selectlanguageifdefined{english}
+Spectroscopy and Excitation Dynamics of Condensed Molecular Systems~// Ed. by
+  V.~M.~Agranovich, R.~M.~Hochstrasser.
+\newblock Modern Problems in Condensed Matter Sciences. Amsterdam:
+  North-Holland, 1983.
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=0444863133}{0444863133}.
+
+\bibitem{InP}
+\selectlanguageifdefined{english}
+\href{http://www.ioffe.rssi.ru/SVA/NSM/Semicond/InP/basic.html}{InP Basic
+  Parameters at 300 K}~// Electronic archive New Semiconductor Materials.
+  Characteristics and Properties~/ Ioffe Physico-Technical Institute.
+\newblock St. Petersburg, 2001.
+\newblock \BibUrl{http://www.ioffe.rssi.ru/SVA/NSM/Semicond/InP/basic.html}
+  \BibUrlDate{01.11.2009}.
+
+\bibitem{Mishchenko_1996}
+\selectlanguageifdefined{russian}
+\BibEmph{Мищенко~Е.~Ж.} Неупругое рассеяние света в системе взаимодействующих
+  электронов и фононов:
+  {\cyr\CYRK\cyra\cyrn\cyrd\cyri\cyrd\cyra\cyrt\cyrs\cyrk\cyra\cyrya\
+  \cyrd\cyri\cyrs\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyri\cyrya}~/ ИТФ им.
+  Л.~Д.~Ландау.
+\newblock 1996.
+
+\bibitem{Skvortsov_2008}
+\selectlanguageifdefined{russian}
+\BibEmph{Скворцов~М.~А.} Флуктуационные и интерференционные эффекты в
+  мезоскопических системах:
+  {\cyr\CYRD\cyro\cyrk\cyrt\cyro\cyrr\cyrs\cyrk\cyra\cyrya\
+  \cyrd\cyri\cyrs\cyrs\cyre\cyrr\cyrt\cyra\cyrc\cyri\cyrya}~/ ИТФ им.
+  Л.~Д.~Ландау.
+\newblock 2008.
+
+\end{thebibliography}
