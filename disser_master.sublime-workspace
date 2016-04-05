@@ -424,26 +424,26 @@
 	"buffers":
 	[
 		{
-			"file": "disser_master.sublime-project",
-			"settings":
-			{
-				"buffer_size": 452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "thesis.bib",
-			"settings":
-			{
-				"buffer_size": 2680,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 3153,
+				"buffer_size": 3186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inverse_mapping.tex",
+			"settings":
+			{
+				"buffer_size": 2686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "1.tex",
+			"settings":
+			{
+				"buffer_size": 4282,
 				"line_ending": "Unix"
 			}
 		}
@@ -556,13 +556,44 @@
 	],
 	"file_history":
 	[
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 13 END [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 12 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 10 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 11 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 09 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 08 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 07 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 06 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 05 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 04 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 01 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 02 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 03 [BDRip 1280x720 x264 FLAC].ass",
+		"/home/den/workspace/disser_master/disser_master.sublime-project",
+		"/home/den/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/den/workspace/disser_master/fig/inverse_mapping.tex",
+		"/home/den/workspace/disser_master/1.tex",
+		"/home/den/workspace/disser_master/thesis.tex",
+		"/home/den/workspace/disser/templates/bachelor/thesis.tex",
+		"/home/den/workspace/disser_master/1.log",
+		"/home/den/workspace/bachelor/thesis.tex",
+		"/home/den/workspace/disser/templates/bachelor/1.tex",
+		"/home/den/workspace/disser/templates/bachelor/intro.tex",
+		"/home/den/workspace/disser/templates/bachelor/app-a.tex",
+		"/home/den/workspace/disser/templates/master/intro.tex",
+		"/home/den/workspace/disser/templates/master/1.tex",
+		"/home/den/workspace/disser/templates/master/concl.tex",
+		"/home/den/workspace/disser/templates/master/app-a.tex",
+		"/home/den/workspace/disser/templates/candidate/1.tex",
+		"/home/den/workspace/disser/templates/doctor/1.tex",
+		"/home/den/Downloads/manual.tex",
+		"/home/den/workspace/disser_master/untitled.tex",
+		"/home/den/workspace/disser/templates/specialist/1.tex",
+		"/home/den/workspace/disser_master/thesis.bib",
 		"/home/den/workspace/disser/templates/master (copy)/thesis.tex",
 		"/home/den/workspace/disser/templates/master/thesis.tex",
 		"/home/den/workspace/disser/README.ru",
-		"/home/den/workspace/disser_master/thesis.tex",
-		"/home/den/workspace/disser_master/disser_master.sublime-project",
 		"/home/den/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/den/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
 		"/home/den/workspace/disser_master/app-a.tex",
 		"/home/den/workspace/master/1.tex",
 		"/home/den/workspace/disser/README",
@@ -652,42 +683,11 @@
 		"/home/den/optical_flow/image_filtering.tpp",
 		"/home/den/smp_test/image_processing.tpp",
 		"/home/den/Desktop/lk/LucasKanade.m",
-		"/home/den/Desktop/lk/HierarchicalLK.m",
-		"/home/den/smp_test2/smp_test/image_processing.tpp",
-		"/home/den/Desktop/lk/LucasKanadeRefined.m",
-		"/home/den/smp_test/matrix.tpp",
-		"/home/den/.cache/.fr-kUE11P/GPExpand.m",
-		"/home/den/smp_test2/smp_test/main.cpp",
-		"/home/den/test3/main.cpp",
-		"/home/den/test3/color.tpp",
-		"/home/den/smp_test/color.tpp",
-		"/home/den/smp_test2/smp_test/image_processing.h",
-		"/home/den/LKPR.m",
-		"/home/den/.cache/.fr-HwaJOP/LKPR.m",
-		"/home/den/klt/pyramid.c",
-		"/home/den/klt/klt.c",
-		"/home/den/flow-code/colorcode.cpp",
-		"/home/den/flow-code/color_flow.cpp",
-		"/home/den/.cache/.fr-UNwJde/devkit/readme.txt",
-		"/home/den/flow-code/colortest.cpp",
-		"/home/den/flow-code/colorcode.h",
-		"/home/den/flow-code/imageLib/README.txt",
-		"/home/den/shepelev-denis-073/task10/service_b.py",
-		"/home/den/shepelev-denis-073/task10/test.py",
-		"/home/den/shepelev-denis-073/task10/service_a.py",
-		"/home/den/shepelev-denis-073/task10/blockade.yml",
-		"/home/den/Downloads/2/22.py",
-		"/home/den/.cache/.fr-fpJYGw/multiagent-master/homework1/report.md",
-		"/home/den/.cache/.fr-vm6vzL/multiagent-master/homework1/WildDogs_Ch16-Ex3.nlogo",
-		"/home/den/Downloads/2/config.yaml",
-		"/home/den/Downloads/2/Dockerfile",
-		"/home/den/Downloads/2/get_info.sh",
-		"/home/den/.cache/.fr-eJbl3C/2/tst_part.py",
-		"/home/den/.cache/.fr-tC4S4X/2/serv_start.sh"
+		"/home/den/Desktop/lk/HierarchicalLK.m"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -710,6 +710,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"{fig}",
+			"fig",
 			"point",
 			"c",
 			"c++",
@@ -786,96 +788,97 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "disser_master.sublime-project",
+					"file": "thesis.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 452,
+						"buffer_size": 3186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								2804,
+								2804
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"spell_check": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "thesis.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2680,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2074.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "thesis.tex",
+					"buffer": 1,
+					"file": "inverse_mapping.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3153,
+						"buffer_size": 2686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								725,
-								725
+								2485,
+								2485
 							]
 						],
 						"settings":
 						{
 							"spell_check": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 663.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "1.tex",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

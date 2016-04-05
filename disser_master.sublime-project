@@ -8,7 +8,7 @@
   "settings":
   {
     "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-    "dictionary": "Packages/russian-english.dic",
+    "dictionary": "Packages/russian_english.dic",
     "font_size": 10,
     "ignored_packages":
     [

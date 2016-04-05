@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1459888158 "inverse_mapping.tex" "inverse_mapping.pdf" "inverse_mapping" 1459888158
+  "/etc/texmf/web2c/texmf.cnf" 1444074713 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd" 1254151887 2109 c400bd6c901edc4a09e4d53fcffd3b3c ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1444074912 3822874 8a04248d66cba1cf74146730f7cba93a ""
+  "inverse_mapping.aux" 1459001163 8 a94a2480d3289e625eea47cd1b285758 ""
+  "inverse_mapping.tex" 1459888157 2654 9a8bf20e483fe0db11c4f72a94769d2a ""
+  (generated)
+  "inverse_mapping.log"
+  "inverse_mapping.pdf"
