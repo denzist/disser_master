@@ -45,3 +45,74 @@ $$p(m|z_{1,T}) = \prod_{i}{p(m_i|z_{1,T})}$$
   \frac{p(\overline{m_i})}{p(m_i)}
   \frac{p(m_i|z_{1,t-1})}{p(\overline{m_i}|z_{1,t-1})}
 \end{equation}
+
+Заметим, что $p(\overline{m_i}) = 1 - p(m_i)$. Поэтому, переписав \eqref{inverse:5} в виде log-odds $l(p(m_i)) = \log{\frac{p(m_i)}{1-p(m_i)}}$, окончательно получаем формулу позволяющую рекурсивно вычислять $l(m_i|z_{1,t})$
+
+\begin{equation}\label{inverse:6}
+  l(m_i|z_{1,t}) = l(z_t|m_i) - l(m_i) + l(m_i|z_{1,t-1})
+\end{equation}
+
+% Первый алгоритм
+\begin{algorithm}[H]
+  \caption{Картирование с обратной моделью сенсора}
+  \label{alg:inverse_mapping}
+  \SetAlgoLined
+  % \KwData{Входные данные}
+  % \KwResult{Как прочитать книгу }
+  \emph{Инициализация} 
+
+  \For{all $m_i$ in $m$}
+  {
+    $l_i = \log{\frac{p(m_i)}{1 - p(m_i)}}$     
+  %   \eIf{понятно}{
+  %     перейти к следующей главе; текущей главой становится следующая глава;
+  %   }{
+  %   перейти к началу текущей главы;
+  }
+
+  \emph{Рекурсивное обновление log-odds}
+
+  \For{all $z_t$}
+  {
+    \For{all $m_i$ in $m$}
+    {
+      $l_i += \log{\frac{p(z_t|m_i)}{1 - p(z_t|m_i)}} - \log{\frac{p(m_i)}{1 - p(m_i)}}$        
+    }
+  }
+
+  \emph{Получение вероятностей из log-odds}
+
+  \For{all $m_i$ in $m$}
+    {
+      $p(m_i|z_{1,T}) = 1 - e^{-l_i}$       
+    }
+
+\end{algorithm}
+ 
+% Второй алгоритм
+ 
+% \begin{algorithm}[H]
+%   \SetAlgoLined %% Это соединяет линиями логические части
+%   %% алгоритма типа if-then-else
+  
+%   \KwData{ experiment.data} %% здесь можно указать исходные параметры
+%   \KwResult{ output, xoptimal } %% результат работы программы
+%   x=0;
+%   \While{ $\tau_{norm} > \varepsilon_{tol}$ }{
+%     $s_{k-1} \leftarrow x_k - x_{k-1}$;
+%     // Step lenght computation: %% это комментарий, который будет виден.
+%     \eIf{$k$ is even}{
+%       $ \alpha_k^{ABB} = \frac{ s_{k-1}^T y_{k-1}}{y_{k-1}^T y_{k-1}}$
+%     }{ %% ELSE
+%     $\alpha_k^{ABB} = \frac{ s_{k-1}^T s_{k-1}}{s_{k-1}^T y_{k-1}}$
+%   } %% END eIf{$k$ is even}{
+%   $k \leftarrow k + 1$;
+%   \For{ i = 1}{
+%     $x_{i+1} = P_\Omega(x_i - \alpha_k^{ABB}*g_k)$;
+%   } %% END For{ i = 1}{
+%   // Compute the termination constant %% это комментарий, который будет виден.
+%   $\tau_{norm} = abs ( ||x_{k}||_2 - ||x_{k-1}||_2)$
+% } %% END While{ $\tau_{norm} > \varepsilon_{tol}$ }{
+% \caption{Pseudo-code for basic algorithm.}
+% \label{alg:generalGP}
+% \end{algorithm}

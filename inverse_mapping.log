@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.5)  5 APR 2016 23:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.5)  6 APR 2016 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1815,7 +1815,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.43 \begin{equation}
-                     \label{inverse:4}
+                     \label{inverse:5}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1825,9 +1825,598 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 43--43
  []
 
 
-Overfull \hbox (169.6748pt too wide) detected at line 45
-[][] \OT1/cmr/m/n/10 = []
+Overfull \hbox (178.41287pt too wide) detected at line 47
+[][] \OT1/cmr/m/n/10 = [][][]
  []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 З
+      аметим, что $p(\overline{m_i}) = 1 - p(m_i)$. Поэтому, переписав \eqre...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no З in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no ч in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no П in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no п in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no п in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no в in font nullfont!
+! Undefined control sequence.
+l.49 ...) = 1 - p(m_i)$. Поэтому, переписав \eqref
+                                                  {inverse:5} в виде log-odd...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no к in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no ч in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ь in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no п in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no ч in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no ф in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no п in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no з in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no я in font nullfont!
+Missing character: There is no ю in font nullfont!
+Missing character: There is no щ in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no ю in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no к in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no ч in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no я in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no ь in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
+[]
+ []
+
+
+Overfull \hbox (35.47398pt too wide) in paragraph at lines 49--50
+\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ([]) =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 49--50
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (24.91847pt too wide) in paragraph at lines 49--50
+\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (46.43236pt too wide) in paragraph at lines 49--50
+\OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/
+m/it/10 m[]\OT1/cmr/m/n/10 )) =
+ []
+
+
+Overfull \hbox (47.85579pt too wide) in paragraph at lines 49--50
+[] []$
+ []
+
+
+Overfull \hbox (40.37805pt too wide) in paragraph at lines 49--50
+\OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[]\OMS/cmsy/m/n/10 j\OML/c
+mm/m/it/10 z[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \begin{equation}
+                     \label{inverse:6}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--51
+[] 
+ []
+
+
+Overfull \hbox (176.96579pt too wide) detected at line 53
+[]\OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[]\OMS/cmsy/m/n/10 j\OML
+/cmm/m/it/10 z[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 z[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 m[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m
+/n/10 ^^@ \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[]\OT1/cmr/m/n/1
+0 ) + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[]\OMS/cmsy/m/n/10 j
+\OML/cmm/m/it/10 z[]\OT1/cmr/m/n/10 )
+ []
+
+
+! LaTeX Error: Environment algorithm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \begin{algorithm}
+                      [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \begin{algorithm}[
+                       H]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57   \caption
+               {Картирование с обратной моделью сенсора}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no К in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ь in font nullfont!
+Missing character: There is no ю in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no а in font nullfont!
+! Undefined control sequence.
+l.59   \SetAlgoLined
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no И in font cmti10!
+Missing character: There is no н in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no ц in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no а in font cmti10!
+Missing character: There is no л in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no з in font cmti10!
+Missing character: There is no а in font cmti10!
+Missing character: There is no ц in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no я in font cmti10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 56--63
+[]
+ []
+
+! Undefined control sequence.
+l.64   \For
+           {all $m_i$ in $m$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64   \For{a
+             ll $m_i$ in $m$}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 64--72
+[]
+ []
+
+
+Overfull \hbox (12.10942pt too wide) in paragraph at lines 64--72
+\OML/cmm/m/it/10 m[]$
+ []
+
+
+Overfull \hbox (8.78014pt too wide) in paragraph at lines 64--72
+\OML/cmm/m/it/10 m$
+ []
+
+
+Overfull \hbox (16.86859pt too wide) in paragraph at lines 64--72
+\OML/cmm/m/it/10 l[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (47.85579pt too wide) in paragraph at lines 64--72
+[] []$
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73   \emph{Рекурсивное обновление log-odds}
+                                             
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no Р in font cmti10!
+Missing character: There is no е in font cmti10!
+Missing character: There is no к in font cmti10!
+Missing character: There is no у in font cmti10!
+Missing character: There is no р in font cmti10!
+Missing character: There is no с in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no в in font cmti10!
+Missing character: There is no н in font cmti10!
+Missing character: There is no о in font cmti10!
+Missing character: There is no е in font cmti10!
+Missing character: There is no о in font cmti10!
+Missing character: There is no б in font cmti10!
+Missing character: There is no н in font cmti10!
+Missing character: There is no о in font cmti10!
+Missing character: There is no в in font cmti10!
+Missing character: There is no л in font cmti10!
+Missing character: There is no е in font cmti10!
+Missing character: There is no н in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no е in font cmti10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 73--74
+[]
+ []
+
+
+Overfull \hbox (15.3332pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/it/10 log-
+ []
+
+
+Overfull \hbox (19.73181pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/it/10 odds 
+ []
+
+! Undefined control sequence.
+l.75   \For
+           {all $z_t$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75   \For{a
+             ll $z_t$}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+! Undefined control sequence.
+l.77     \For
+             {all $m_i$ in $m$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 75--82
+[]
+ []
+
+
+Overfull \hbox (8.17134pt too wide) in paragraph at lines 75--82
+\OML/cmm/m/it/10 z[]$
+ []
+
+
+Overfull \hbox (12.10942pt too wide) in paragraph at lines 75--82
+\OML/cmm/m/it/10 m[]$
+ []
+
+
+Overfull \hbox (8.78014pt too wide) in paragraph at lines 75--82
+\OML/cmm/m/it/10 m$
+ []
+
+
+Overfull \hbox (24.6464pt too wide) in paragraph at lines 75--82
+\OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 + =
+ []
+
+
+Overfull \hbox (65.14755pt too wide) in paragraph at lines 75--82
+[] [] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (47.85579pt too wide) in paragraph at lines 75--82
+[] []$
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83   \emph{Получение вероятностей из log-odds}
+                                                
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no П in font cmti10!
+Missing character: There is no о in font cmti10!
+Missing character: There is no л in font cmti10!
+Missing character: There is no у in font cmti10!
+Missing character: There is no ч in font cmti10!
+Missing character: There is no е in font cmti10!
+Missing character: There is no н in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no е in font cmti10!
+Missing character: There is no в in font cmti10!
+Missing character: There is no е in font cmti10!
+Missing character: There is no р in font cmti10!
+Missing character: There is no о in font cmti10!
+Missing character: There is no я in font cmti10!
+Missing character: There is no т in font cmti10!
+Missing character: There is no н in font cmti10!
+Missing character: There is no о in font cmti10!
+Missing character: There is no с in font cmti10!
+Missing character: There is no т in font cmti10!
+Missing character: There is no е in font cmti10!
+Missing character: There is no й in font cmti10!
+Missing character: There is no и in font cmti10!
+Missing character: There is no з in font cmti10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 83--84
+[]
+ []
+
+
+Overfull \hbox (15.3332pt too wide) in paragraph at lines 83--84
+\OT1/cmr/m/it/10 log-
+ []
+
+
+Overfull \hbox (19.73181pt too wide) in paragraph at lines 83--84
+\OT1/cmr/m/it/10 odds 
+ []
+
+! Undefined control sequence.
+l.85   \For
+           {all $m_i$ in $m$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85   \For{a
+             ll $m_i$ in $m$}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 85--89
+[]
+ []
+
+
+Overfull \hbox (12.10942pt too wide) in paragraph at lines 85--89
+\OML/cmm/m/it/10 m[]$
+ []
+
+
+Overfull \hbox (8.78014pt too wide) in paragraph at lines 85--89
+\OML/cmm/m/it/10 m$
+ []
+
+
+Overfull \hbox (55.56305pt too wide) in paragraph at lines 85--89
+\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m[]\OMS/cmsy/m/n/10 j\OML/c
+mm/m/it/10 z[]\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 85--89
+\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (17.10306pt too wide) in paragraph at lines 85--89
+\OML/cmm/m/it/10 e[]$
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 \end{algorithm}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 )
 ! Emergency stop.
@@ -1837,10 +2426,10 @@ Overfull \hbox (169.6748pt too wide) detected at line 45
 
  
 Here is how much of TeX's memory you used:
- 28 strings out of 493304
- 525 string characters out of 6139871
- 54880 words of memory out of 5000000
- 3583 multiletter control sequences out of 15000+600000
+ 30 strings out of 493304
+ 546 string characters out of 6139871
+ 56880 words of memory out of 5000000
+ 3585 multiletter control sequences out of 15000+600000
  3986 words of font info for 15 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  18i,3n,15p,543b,80s stack positions out of 5000i,500n,10000p,200000b,80000s
