@@ -10,7 +10,7 @@ $$p(m|z_1,...,z_T) \equiv p(m|z_{1,T})$$
 
 Основная проблема в том, что карта проходимости $m$ принадлежит пространству большой размерности. Чтобы обойти эту проблему при оценке $p(m|z_{1,T})$, вводится предположение о том, что клетки карты $m_i$ - случайные, независимые величины. Тогда
 $$p(m|z_{1,T}) = \prod_{i}{p(m_i|z_{1,T})}$$
-Таким образом, достаточно понять, как можно оценить вероятность занятости клетки $i$ при известных наблюдениях $z_{1,T}$. Разложим $p(m_i|z_t)$ по правилу Баеса:
+Таким образом, достаточно понять, как можно оценить вероятность занятости клетки $i$ при известных наблюдениях $z_{1,T}$. Разложим $p(m_i|z_t)$ по правилу Байеса:
 
 \begin{equation}\label{inverse:1}
   p(m_i|z_{1,t}) = \frac{p(z_t|m_i, z_{1,t-1})p(m_i|z_{1,t-1})}{p(z_t|z_{1,t-1})}
@@ -25,7 +25,7 @@ $$p(m|z_{1,T}) = \prod_{i}{p(m_i|z_{1,T})}$$
   p(z_t|m_i, z_{1,t-1}) = p(z_t|m_i) 
 \end{equation}
 
-Подставив в \eqref{inverse:1} формулу выше, снова воспользуемся правилом Баеса
+Подставив в \eqref{inverse:1} формулу выше, снова воспользуемся правилом Байеса
 
 \begin{equation}\label{inverse:3}
   p(m_i|z_{1,t}) = \frac{p(z_t|m_i)p(m_i|z_{1,t-1})}{p(z_t|z_{1,t-1})} 
@@ -41,7 +41,7 @@ $$p(m|z_{1,T}) = \prod_{i}{p(m_i|z_{1,T})}$$
 Поделив \eqref{inverse:3} на \eqref{inverse:4} получим
 
 \begin{equation}\label{inverse:5}
-  \frac{p(m_i|z_{1,t})}{p(\overline{m_i}|z_{1,t})} = \frac{p(z_t|m_i)}{p(\overline{m_i}| z_t)}
+  \frac{p(m_i|z_{1,t})}{p(\overline{m_i}|z_{1,t})} = \frac{p(m_i|z_t)}{p(\overline{m_i}| z_t)}
   \frac{p(\overline{m_i})}{p(m_i)}
   \frac{p(m_i|z_{1,t-1})}{p(\overline{m_i}|z_{1,t-1})}
 \end{equation}
@@ -49,7 +49,7 @@ $$p(m|z_{1,T}) = \prod_{i}{p(m_i|z_{1,T})}$$
 Заметим, что $p(\overline{m_i}) = 1 - p(m_i)$. Поэтому, переписав \eqref{inverse:5} в виде log-odds $l(p(m_i)) = \log{\frac{p(m_i)}{1-p(m_i)}}$, окончательно получаем формулу позволяющую рекурсивно вычислять $l(m_i|z_{1,t})$
 
 \begin{equation}\label{inverse:6}
-  l(m_i|z_{1,t}) = l(z_t|m_i) - l(m_i) + l(m_i|z_{1,t-1})
+  l(m_i|z_{1,t}) = l(m_i|z_t) - l(m_i) + l(m_i|z_{1,t-1})
 \end{equation}
 
 % Первый алгоритм
@@ -76,7 +76,7 @@ $$p(m|z_{1,T}) = \prod_{i}{p(m_i|z_{1,T})}$$
   {
     \For{all $m_i$ in $m$}
     {
-      $l_i += \log{\frac{p(z_t|m_i)}{1 - p(z_t|m_i)}} - \log{\frac{p(m_i)}{1 - p(m_i)}}$        
+      $l_i += \log{\frac{p(m_i|z_t)}{1 - p(m_i|z_t)}} - \log{\frac{p(m_i)}{1 - p(m_i)}}$        
     }
   }
 

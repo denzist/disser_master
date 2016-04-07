@@ -427,7 +427,7 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 3186,
+				"buffer_size": 3250,
 				"line_ending": "Unix"
 			}
 		},
@@ -435,15 +435,15 @@
 			"file": "inverse_mapping.tex",
 			"settings":
 			{
-				"buffer_size": 2686,
+				"buffer_size": 4897,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "1.tex",
+			"file": "algorithm2e_config.tex",
 			"settings":
 			{
-				"buffer_size": 4282,
+				"buffer_size": 852,
 				"line_ending": "Unix"
 			}
 		}
@@ -556,6 +556,7 @@
 	],
 	"file_history":
 	[
+		"/home/den/workspace/disser_master/algorithm2e_config.tex",
 		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 13 END [BDRip 1280x720 x264 FLAC].ass",
 		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 12 [BDRip 1280x720 x264 FLAC].ass",
 		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 10 [BDRip 1280x720 x264 FLAC].ass",
@@ -682,8 +683,7 @@
 		"/home/den/optical_flow/include/gui/gui.pri",
 		"/home/den/optical_flow/image_filtering.tpp",
 		"/home/den/smp_test/image_processing.tpp",
-		"/home/den/Desktop/lk/LucasKanade.m",
-		"/home/den/Desktop/lk/HierarchicalLK.m"
+		"/home/den/Desktop/lk/LucasKanade.m"
 	],
 	"find":
 	{
@@ -788,7 +788,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -797,15 +797,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3186,
+						"buffer_size": 3250,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2804,
-								2804
+								846,
+								846
 							]
 						],
 						"settings":
@@ -814,10 +814,10 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2074.0,
+						"translation.y": 1275.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -826,15 +826,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2686,
+						"buffer_size": 4897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2485,
-								2485
+								3141,
+								3141
 							]
 						],
 						"settings":
@@ -845,40 +845,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 663.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "1.tex",
-					"semi_transient": true,
+					"file": "algorithm2e_config.tex",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4282,
+						"buffer_size": 852,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								475,
-								475
+								852,
+								852
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
