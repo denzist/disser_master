@@ -25,6 +25,11 @@ colorlinks=true % цветные гиперссылки
 \usepackage{amsmath}
 \usepackage{algorithm2e}
 
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+\newcommand*{\argminl}{\argmin\limits}
+\newcommand*{\argmaxl}{\argmax\limits}
+
 \input{algorithm2e_config}
 
 % Точка с запятой в качестве разделителя между номерами цитирований
@@ -141,6 +146,10 @@ colorlinks=true % цветные гиперссылки
 %\input{2}
 % Глава inverse mapping
 \input{inverse_mapping}
+
+\input{thrun_forward_mapping}
+
+\input{random_mapping}
 
 % Заключение
 \input{concl}

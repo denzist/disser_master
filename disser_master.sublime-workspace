@@ -435,7 +435,7 @@
 			"file": "inverse_mapping.tex",
 			"settings":
 			{
-				"buffer_size": 4897,
+				"buffer_size": 7651,
 				"line_ending": "Unix"
 			}
 		},
@@ -710,6 +710,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Баеса",
 			"{fig}",
 			"fig",
 			"point",
@@ -814,7 +815,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1275.0,
+						"translation.y": 1683.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -826,15 +827,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4897,
+						"buffer_size": 7651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3141,
-								3141
+								6449,
+								6449
 							]
 						],
 						"settings":
@@ -845,10 +846,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1071.0,
+						"translation.y": 2244.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -876,7 +877,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
