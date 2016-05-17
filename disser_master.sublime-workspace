@@ -424,18 +424,18 @@
 	"buffers":
 	[
 		{
-			"file": "thesis.tex",
+			"file": "inverse_mapping.tex",
 			"settings":
 			{
-				"buffer_size": 3250,
+				"buffer_size": 7646,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "inverse_mapping.tex",
+			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 7651,
+				"buffer_size": 3462,
 				"line_ending": "Unix"
 			}
 		},
@@ -552,10 +552,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/den/workspace/disser_master"
+		"/home/den/disser_master"
 	],
 	"file_history":
 	[
+		"/home/den/disser_master/thesis.tex",
 		"/home/den/workspace/disser_master/algorithm2e_config.tex",
 		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 13 END [BDRip 1280x720 x264 FLAC].ass",
 		"/home/den/Downloads/Paranoia Agent [BDRip 1280x720 x264 FLAC]/Paranoia Agent - 12 [BDRip 1280x720 x264 FLAC].ass",
@@ -682,8 +683,7 @@
 		"/home/den/lucas_kanade/main.cpp",
 		"/home/den/optical_flow/include/gui/gui.pri",
 		"/home/den/optical_flow/image_filtering.tpp",
-		"/home/den/smp_test/image_processing.tpp",
-		"/home/den/Desktop/lk/LucasKanade.m"
+		"/home/den/smp_test/image_processing.tpp"
 	],
 	"find":
 	{
@@ -794,28 +794,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "thesis.tex",
+					"file": "inverse_mapping.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3250,
+						"buffer_size": 7646,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								846,
-								846
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"spell_check": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"spell_check": true,
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1683.0,
+						"translation.y": 1275.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -823,30 +825,27 @@
 				},
 				{
 					"buffer": 1,
-					"file": "inverse_mapping.tex",
+					"file": "thesis.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7651,
+						"buffer_size": 3462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6449,
-								6449
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"spell_check": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2244.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -871,7 +870,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
