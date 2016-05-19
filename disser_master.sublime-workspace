@@ -427,23 +427,7 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 3551,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sections/thrun_forward_mapping.tex",
-			"settings":
-			{
-				"buffer_size": 6918,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sections/inverse_mapping.tex",
-			"settings":
-			{
-				"buffer_size": 7866,
+				"buffer_size": 3578,
 				"line_ending": "Unix"
 			}
 		},
@@ -451,7 +435,7 @@
 			"file": "sections/gradient_mapping.tex",
 			"settings":
 			{
-				"buffer_size": 50,
+				"buffer_size": 9083,
 				"line_ending": "Unix",
 				"name": "МЕТОД ВОССТАНОВЛЕНИЯ КАРТЫ НА ОСНОВЕ ГРАДИЕНТНОГО"
 			}
@@ -461,6 +445,14 @@
 			"settings":
 			{
 				"buffer_size": 7722,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sections/thrun_forward_mapping.tex",
+			"settings":
+			{
+				"buffer_size": 4577,
 				"line_ending": "Unix"
 			}
 		}
@@ -598,12 +590,13 @@
 	],
 	"file_history":
 	[
-		"/home/den/disser_master/sections/sonars.tex",
 		"/home/den/disser_master/sections/random_mapping.tex",
-		"/home/den/workspace/mipt2015/mipt58.tex",
+		"/home/den/disser_master/sections/results.tex",
 		"/home/den/disser_master/sections/inverse_mapping.tex",
-		"/home/den/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
 		"/home/den/disser_master/sections/thrun_forward_mapping.tex",
+		"/home/den/disser_master/sections/sonars.tex",
+		"/home/den/workspace/mipt2015/mipt58.tex",
+		"/home/den/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
 		"/home/den/disser_master/inverse_mapping.tex",
 		"/home/den/disser_master/algorithm2e_config.tex",
 		"/home/den/disser_master/Makefile",
@@ -724,8 +717,7 @@
 		"/home/den/.ssh/config",
 		"/tmp/rsub-txv_gc/topics.txt",
 		"/home/den/.bashrc",
-		"/media/den/KINGSTON/autorun.inf",
-		"/home/den/iitp/swarm0/CMakeLists.txt"
+		"/media/den/KINGSTON/autorun.inf"
 	],
 	"find":
 	{
@@ -752,6 +744,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"crit",
 			"inverse",
 			"alg:inverse_mapping",
 			"астического градиента",
@@ -845,15 +838,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3551,
+						"buffer_size": 3578,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3380,
-								3380
+								3203,
+								3203
 							]
 						],
 						"settings":
@@ -869,96 +862,36 @@
 				},
 				{
 					"buffer": 1,
-					"file": "sections/thrun_forward_mapping.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6918,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6400,
-								6400
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1632.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sections/inverse_mapping.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7866,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "sections/gradient_mapping.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50,
+						"buffer_size": 9083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
+								9082,
+								9082
 							]
 						],
 						"settings":
 						{
 							"auto_name": "МЕТОД ВОССТАНОВЛЕНИЯ КАРТЫ НА ОСНОВЕ ГРАДИЕНТНОГО",
+							"spell_check": true,
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1887.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "sections/random_mapping.tex",
 					"semi_transient": false,
 					"settings":
@@ -970,8 +903,8 @@
 						"selection":
 						[
 							[
-								5516,
-								5516
+								3047,
+								3047
 							]
 						],
 						"settings":
@@ -981,10 +914,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1632.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sections/thrun_forward_mapping.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2584,
+								2584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
