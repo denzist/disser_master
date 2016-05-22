@@ -108,34 +108,4 @@ $$p(m|z_{1,T}) = \prod_{i}{p(m_i|z_{1,T})}$$
 
 “аким образом, можно сделать вывод, что по крайней мере в случае сонаров, использовать этот метод с предположением о независимости клеток нельз€. Ќо напр€мую вычислить веро€тность $p(m|z_{1-t})$ не представл€етс€ возможным, так как пространство всевозможных карт огромно.
 
-—ебасть€н “рун (Sebastian Thrun) в работе TODOThrun предложил другой метод картировани€, лишенный проблем выше.
-
-
-
-% ¬торой алгоритм
- 
-% \begin{algorithm}[H]
-%   \SetAlgoLined %% Ёто соедин€ет лини€ми логические части
-%   %% алгоритма типа if-then-else
-  
-%   \KwData{ experiment.data} %% здесь можно указать исходные параметры
-%   \KwResult{ output, xoptimal } %% результат работы программы
-%   x=0;
-%   \While{ $\tau_{norm} > \varepsilon_{tol}$ }{
-%     $s_{k-1} \leftarrow x_k - x_{k-1}$;
-%     // Step lenght computation: %% это комментарий, который будет виден.
-%     \eIf{$k$ is even}{
-%       $ \alpha_k^{ABB} = \frac{ s_{k-1}^T y_{k-1}}{y_{k-1}^T y_{k-1}}$
-%     }{ %% ELSE
-%     $\alpha_k^{ABB} = \frac{ s_{k-1}^T s_{k-1}}{s_{k-1}^T y_{k-1}}$
-%   } %% END eIf{$k$ is even}{
-%   $k \leftarrow k + 1$;
-%   \For{ i = 1}{
-%     $x_{i+1} = P_\Omega(x_i - \alpha_k^{ABB}*g_k)$;
-%   } %% END For{ i = 1}{
-%   // Compute the termination constant %% это комментарий, который будет виден.
-%   $\tau_{norm} = abs ( ||x_{k}||_2 - ||x_{k-1}||_2)$
-% } %% END While{ $\tau_{norm} > \varepsilon_{tol}$ }{
-% \caption{Pseudo-code for basic algorithm.}
-% \label{alg:generalGP}
-% \end{algorithm}
+—ебасть€н “рун (Sebastian Thrun) в работе TODOThrun предложил другой метод картировани€, лишенный описанных проблем.
