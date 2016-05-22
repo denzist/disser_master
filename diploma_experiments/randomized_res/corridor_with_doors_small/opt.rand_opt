@@ -1,0 +1,23 @@
+{
+
+  "randomized_optimizer_settings":
+  {
+    "neighbour_border_score": 0.005,
+    "cell_occ_score": 0.05,
+    "random_factor_max": 0.0,
+    "random_factor_min": 0.0000001,
+    "random_factor_step": 0.0,
+    "steps": 50000,
+    "debug_filename": "",
+    "debug_flag": false,
+    "avg_size": 0
+  },
+
+  "sonar_prob_model_settings":
+  {
+    "range_cov": 0.15,
+    "angle_cov": 0.34,
+    "hitting_prob" : 0.75,
+    "rand_prob" : 0.05
+  }
+}

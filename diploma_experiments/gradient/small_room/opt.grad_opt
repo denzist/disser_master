@@ -1,0 +1,13 @@
+{
+  "gradient_optimizer_settings":
+  {
+    "steps": 100,
+    "occ_tan": -0.001,
+    "emp_tan": 0.05,
+    "reg_tan": 0.5,
+    "lambda": 0.01,
+    "use_angle_gauss_weights_flag": false,
+    "show_binarized_flag": false,
+    "magic_flag": false
+  }
+}
