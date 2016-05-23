@@ -1,0 +1,60 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{Elfes_1989}
+\selectlanguageifdefined{english}
+\BibEmph{Elfes~A.} Occupancy grids: a probabilistic framework for robot
+  perception and navigation.: Ph.\,D. thesis~/ Department of Electrical and
+  Computer Engineering, Carnegie Mellon University.
+\newblock 1989.
+
+\bibitem{Lategahn_2010}
+\selectlanguageifdefined{english}
+\BibEmph{Lategahn~H., Derendarz~W., Graf~T. et~al.} Occupancy grid computation
+  from dense stereo and sparse structure and motion points for automotive
+  applications.~// \BibEmph{In Intelligent Vehicles Symposium (IV) IEEE}.
+\newblock 2010.
+\newblock P.~819–824.
+
+\bibitem{Burger_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Burger~A.~J.}
+\newblock Occupancy Grid Mapping using Stereo Vision, master dissertation.
+\newblock 2015.
+
+\bibitem{Moras_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Moras~J., Cherfaoui~V., Bonnifait~P.} Credibilist occupancy grids for
+  vehicle perception in dynamic environments.~// \BibEmph{In Robotics and
+  Automation (ICRA), 2011 IEEE International Conference}.
+\newblock 2011.
+\newblock P.~84–89.
+
+\bibitem{Elfes_1989_a}
+\selectlanguageifdefined{english}
+\BibEmph{Elfes~A.} Using occupancy grids for mobile robot perception and
+  navigation.~// \BibEmph{Computer}.
+\newblock 1989.
+\newblock Vol. 22(6).
+\newblock P.~46–57.
+
+\bibitem{Thrun_2003}
+\selectlanguageifdefined{english}
+\BibEmph{Thrun~S.} Learning Occupancy Grids With Forward Sensor Models.~//
+  \BibEmph{Autonomous Robot}.
+\newblock 2003.
+\newblock Vol. 15(2).
+\newblock P.~111--127.
+
+\end{thebibliography}
