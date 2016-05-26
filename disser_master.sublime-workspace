@@ -447,15 +447,7 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 3856,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sections/app-a.tex",
-			"settings":
-			{
-				"buffer_size": 1462,
+				"buffer_size": 3967,
 				"line_ending": "Unix"
 			}
 		},
@@ -463,17 +455,8 @@
 			"file": "sections/random_mapping.tex",
 			"settings":
 			{
-				"buffer_size": 7744,
+				"buffer_size": 7784,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sections/gradient_mapping.tex",
-			"settings":
-			{
-				"buffer_size": 12912,
-				"line_ending": "Unix",
-				"name": "МЕТОД ВОССТАНОВЛЕНИЯ КАРТЫ НА ОСНОВЕ ГРАДИЕНТНОГО"
 			}
 		}
 	],
@@ -521,7 +504,7 @@
 			],
 			[
 				"Packages/LaTeXing/LaTeX.sublime-build",
-				"Clean up Files"
+				""
 			]
 		],
 		[
@@ -565,13 +548,29 @@
 			]
 		]
 	],
-	"build_varint": "Clean up Files",
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 243.0,
-		"last_filter": "mak",
+		"height": 117.0,
+		"last_filter": "build with",
 		"selected_items":
 		[
+			[
+				"build with",
+				"Build With: LaTeX - Clean up Files"
+			],
+			[
+				"",
+				"Build With: LaTeX - Clean up Files"
+			],
+			[
+				"Latex cle",
+				"Build With: LaTeX - Clean up Files"
+			],
+			[
+				"Buila",
+				"Build With: LaTeX - Clean up Files"
+			],
 			[
 				"mak",
 				"Set Syntax: Makefile"
@@ -605,7 +604,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -629,13 +628,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/den/disser_master",
-		"/home/den/disser_master/diploma_experiments/randomized_res_0",
-		"/home/den/disser_master/fig",
-		"/home/den/disser_master/sections"
+		"/home/shepelev/disser_master",
+		"/home/shepelev/disser_master/sections"
 	],
 	"file_history":
 	[
+		"/home/shepelev/disser_master/sections/thrun_forward_mapping.tex",
+		"/home/shepelev/disser_master/sections/intro.tex",
+		"/home/shepelev/disser_master/sections/inverse_mapping.tex",
+		"/home/shepelev/disser_master/sections/gradient_mapping.tex",
+		"/home/shepelev/disser_master/sections/app-a.tex",
+		"/home/shepelev/disser_master/sections/random_mapping.tex",
+		"/home/shepelev/Downloads/manual.tex",
 		"/home/den/image_collector.py",
 		"/home/den/disser_master/sections/results.tex",
 		"/home/den/disser_master/sections/concl.tex",
@@ -756,18 +760,11 @@
 		"/home/den/workspace/graphics/dith_with_rand_border_example.png",
 		"/home/den/workspace/graphics/example.png",
 		"/home/den/workspace/graphics/grad_y_example.png",
-		"/home/den/workspace/graphics/grad_x_example.png",
-		"/home/den/workspace/graphics/dith_with_border_example.png",
-		"/home/den/workspace/graphics/dith_with_borderexample.png",
-		"/home/den/workspace/graphics/gras_x_example.png",
-		"/home/den/workspace/graphics/gras_y_example.png",
-		"/home/den/workspace/graphics/lena.png",
-		"/home/den/ros_workspace/src/gazebo_staff/buggy/buggy_description/CMakeLists.txt",
-		"/home/den/ros_workspace/src/adaptive_control/adaptive_controller/py_src/bayes_learning.py"
+		"/home/den/workspace/graphics/grad_x_example.png"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -791,6 +788,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"относительный",
+			"S",
+			"функционал",
 			"tests_dir",
 			"6",
 			"r",
@@ -897,15 +897,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3856,
+						"buffer_size": 3967,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1272,
-								1272
+								3627,
+								3627
 							]
 						],
 						"settings":
@@ -913,99 +913,47 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 2459.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
-					"file": "sections/app-a.tex",
+					"file": "sections/random_mapping.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1462,
+						"buffer_size": 7784,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1449,
-								1449
+								2250,
+								2250
 							]
 						],
 						"settings":
 						{
 							"spell_check": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sections/random_mapping.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5634,
-								5634
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1598.0,
+						"translation.y": 1003.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sections/gradient_mapping.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12912,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12311,
-								12311
-							]
-						],
-						"settings":
-						{
-							"auto_name": "МЕТОД ВОССТАНОВЛЕНИЯ КАРТЫ НА ОСНОВЕ ГРАДИЕНТНОГО",
-							"spell_check": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3702.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1028,11 +976,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.427990708479,
 			1.0
 		],
 		"rows":
