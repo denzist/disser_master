@@ -452,10 +452,26 @@
 			}
 		},
 		{
+			"file": "sections/gradient_mapping.tex",
+			"settings":
+			{
+				"buffer_size": 12982,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "sections/random_mapping.tex",
 			"settings":
 			{
-				"buffer_size": 7784,
+				"buffer_size": 7897,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sections/inverse_mapping.tex",
+			"settings":
+			{
+				"buffer_size": 7912,
 				"line_ending": "Unix"
 			}
 		}
@@ -604,7 +620,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -633,12 +649,12 @@
 	],
 	"file_history":
 	[
+		"/home/shepelev/disser_master/sections/random_mapping.tex",
 		"/home/shepelev/disser_master/sections/thrun_forward_mapping.tex",
 		"/home/shepelev/disser_master/sections/intro.tex",
 		"/home/shepelev/disser_master/sections/inverse_mapping.tex",
 		"/home/shepelev/disser_master/sections/gradient_mapping.tex",
 		"/home/shepelev/disser_master/sections/app-a.tex",
-		"/home/shepelev/disser_master/sections/random_mapping.tex",
 		"/home/shepelev/Downloads/manual.tex",
 		"/home/den/image_collector.py",
 		"/home/den/disser_master/sections/results.tex",
@@ -788,6 +804,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"s",
+			"phi",
 			"относительный",
 			"S",
 			"функционал",
@@ -904,8 +922,8 @@
 						"selection":
 						[
 							[
-								3627,
-								3627
+								2026,
+								2026
 							]
 						],
 						"settings":
@@ -913,7 +931,7 @@
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2459.0,
+						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -927,19 +945,19 @@
 			[
 				{
 					"buffer": 1,
-					"file": "sections/random_mapping.tex",
+					"file": "sections/gradient_mapping.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7784,
+						"buffer_size": 12982,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2250,
-								2250
+								6268,
+								6268
 							]
 						],
 						"settings":
@@ -950,10 +968,70 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1003.0,
+						"translation.y": 1200.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sections/random_mapping.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5249,
+								5249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sections/inverse_mapping.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3178,
+								3178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1122.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -987,7 +1065,7 @@
 		"cols":
 		[
 			0.0,
-			0.427990708479,
+			0.332752613241,
 			1.0
 		],
 		"rows":
