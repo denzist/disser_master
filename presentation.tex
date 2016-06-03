@@ -1,0 +1,263 @@
+\documentclass[10pt,pdf,hyperref={unicode}]{beamer}
+
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+}
+
+\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\graphicspath{{fig/}}
+
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+\newcommand*{\argminl}{\argmin\limits}
+\newcommand*{\argmaxl}{\argmax\limits}
+
+
+\title{Разработка и анализ методов восстановления карты проходимости на основе показаний датчиков измерения расстояния}
+\author{Денис Шепелев}
+\institute{студент группы 073а \\
+ФУПМ МФТИ}
+
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Задача восстановления карты проходимости}
+
+\subsection{Карта проходимости}
+
+\begin{frame}{Карта проходимости}
+  \begin{columns}
+  \begin{column}{0.50\textwidth}
+    \begin{itemize}
+      \item
+      {
+        Карта проходимости - сетка, состоящая из квадратных клеток одинакового размера.
+      }
+      \item
+      {
+        Клетка карты - некоторая область пространства, содержащая информацию о наличии препятствия в соответствующей этой клетке территории.
+      }
+      \item
+      {
+        Такие карты используются в мобильной робототехнике для навигационных задач. 
+      }
+    \end{itemize}
+  \end{column}
+  \begin{column}{0.50\textwidth}
+    \begin{figure}[h]
+      \centering
+      \includegraphics[width=0.8\textwidth]{grid_map.png}
+    \end{figure}
+  \end{column}
+\end{columns}
+\end{frame}
+
+\subsection{Датчики измерения расстояния}
+
+\begin{frame}{Датчики измерения расстояния}
+
+\begin{itemize}
+  \item
+  {
+    Сонары
+  }
+  \item
+  {
+    \textcolor{red}{Лидары}
+  }
+  \item
+  {
+    \textcolor{red}{Стереокамеры}
+  }
+\end{itemize}
+
+Сонары выбраны в качестве основного датчика, так как они значительно дешевле и доступнее лидаров, и могут использоваться при любом освещении, в отличии от стереопары.
+
+\end{frame}
+
+
+\subsection{Постановка задачи восстановления карты проходимости}
+
+\begin{frame}{Постановка задачи восстановления карты проходимости}
+\textbf{Дано}:
+\begin{itemize}
+  \item
+  {
+    Картируемое  окружение статично.
+  }
+  \item
+  {
+    Даны наблюдения датчиков:
+    $$Z = \{z_1, ..., z_T\}$$
+    $$z_t = (x_t, y_t , \varphi_t, r_t)$$
+
+  }
+\end{itemize}
+\textbf{Цель}:
+\begin{itemize}
+  \item
+  {
+    Восстановить карту проходимости $m$ на основе наблюдений датчиков $Z$.
+  }
+\end{itemize}
+\end{frame}
+
+\section{Методы восстановления карты проходимости}
+
+\subsection{Существующие методы картирования}
+
+\begin{frame}{Существующие методы картирования}
+На данный момент можно выделить два семейства методов восстановления карты проходимости
+\begin{itemize}
+  \item
+  {
+    основанные на обратной модели сенсора:
+
+    \begin{equation}
+      p(m|Z)
+    \end{equation}
+  }
+  \item
+  {
+    основанные на прямой модели сенсора:
+
+    \begin{equation}
+      p(Z|m)
+    \end{equation}
+  }
+\end{itemize}
+
+\end{frame}
+
+\subsection{Картирование на основе обратной модели сенсора}
+
+\begin{frame}{Картирование на основе обратной модели сенсора}
+
+Допущения метода:
+\begin{itemize}
+  \item
+    Клетки карты $m_i$ - независимые случайные величины. Каждая ячейка карты $m$ хранит вероятность занятости $m_i$, с учётом наблюдений $Z$:
+    \begin{equation}
+      p(m|Z) = \prod_i{p(m_i|Z)}
+    \end{equation}
+  \item
+    \begin{equation}
+      p(z_t|m, z_{1,t-1}) = p(z_t|m)
+    \end{equation}
+\end{itemize}
+Значения в клетках обновляются по формуле:
+\begin{equation}
+  \begin{split}
+    \frac{p(m_i | z_{1:t}, x_{1:t})}{1 - p(m_i | z_{1:t}, x_{1:t})} = 
+    \frac{p(m_i | z_t, x_t)}{1- p(m_i | z_t, x_t)}\\
+    \frac{p(m_i | z_{1..t-1}, x_{1:t-1})}{1- p(m_i | z_{1..t-1}, x_{1:t-1})}\\
+    \frac{1 - p(m_i)}{p(m_{i})}
+  \end{split}
+\end{equation}
+
+\end{frame}
+
+\begin{frame}{Картирование на основе обратной модели сенсора}
+
+\begin{itemize}
+  \item
+  {
+    Работает в режиме реального времени.
+  }
+  \item
+  {
+    Подходит для работы с датчиками, неопределенность в показаниях которых меньше размера ячейки карты.
+  }
+\end{itemize}
+
+\begin{table}[h]
+ \renewcommand\tablename{\figurename}
+  \begin{tabular}{ccc}
+    \includegraphics[width=0.25\paperwidth]{two_sonars_example_1.png} &
+    \includegraphics[width=0.25\paperwidth]{two_sonars_example_2.png} &
+    \includegraphics[width=0.25\paperwidth]{two_sonars_example_3.png}
+  \end{tabular}
+\end{table}
+
+Когда допущения описанного метода неверны, карта проходимости, построенная с его помощью, может содержать грубые ошибки.
+
+\end{frame}
+
+\subsection{Картирование на основе прямой модели сенсора}
+
+\begin{frame}{Картирование на основе прямой модели сенсора}
+
+\emph{Основная идея методов, основанных на прямой модели}:
+
+\begin{itemize}
+  \item Каждая клетка может принимать только два значения занятости: 0 - свободная от препятствий ячейка, 1 - занята каким либо препятствием.
+  
+  \item Прямая модель $p(Z|m)$ показывает, на сколько хорошо некоторая карта $m$ объясняет показания сонаров $Z$.
+  
+  \item Таким образом, задача картирования сводится к поиску такой карты $m^*$, которая максимизирует значение $p(Z|m)$:
+    \begin{equation}
+      m^*(Z) = \argmaxl_{m} p(Z|m)
+    \end{equation}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Картирование на основе прямой модели сенсора}
+\begin{table}[h]
+ \renewcommand\tablename{\figurename}
+  \begin{tabular}{cc}
+    \includegraphics[width=0.4\paperwidth]{thrun_inverse_result.png} &
+    \includegraphics[width=0.4\paperwidth]{thrun_forward_result.png}
+  \end{tabular}
+    \caption{Результаты картирования двери, используя наблюдения сонаров. (а) - результаты алгоритма на основе обратной модели, (б) - на основе EM-алгоритма с прямой моделью, предложенной в работе Себастьяна Труна.}
+\end{table}
+\end{frame}
+
+\begin{frame}{Картирование на основе прямой модели сенсора}
+Проблема большинства алгоритмов, основанных на прямой модели, заключается в невозможности их имплементации для работы в режиме реального времени, а также необходимости больших вычислительных ресурсов для поиска оптимальной конфигурации карты. Требование работы в режиме реального времени к эффективному алгоритму построения карты проходимости является достаточно важным, так как часто такие модули являются неотъемлемой частью систем навигации робота.
+\end{frame}
+
+\section{Предложенные в работе методы картирования}
+
+\subsection{Цель работы}
+
+\begin{frame}{Цель работы}
+
+Разработка методов восстановления карты проходимости, используя наблюдения сонаров, которые могут быть имплементированы для работы в режиме реального времени, и картирующие лучше традиционного метода, основанного на обратной модели. 
+
+\end{frame}
+
+\subsection{Предложенные в работе методы картирования}
+
+\begin{frame}{Предложенные в работе методы картирования}
+
+В данной работе предложены два новых метода построения карты проходимости:
+
+\begin{itemize}
+  \item Первый основан на прямой модели, предложенной в работе Себастьяна Труна. В этом методе карта проходимости находится с помощью метода стохастического градиента.
+  
+  \item Во втором методе предложена новая прямая модель сонара, с помощью которой задачу картирования можно свести к задаче минимизации непрерывной невязки.
+\end{itemize}
+\end{frame}
+
+\end{document}
