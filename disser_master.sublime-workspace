@@ -447,47 +447,33 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 3989,
+				"buffer_size": 3988,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "presentation.tex",
+			"file": "sections/results.tex",
 			"settings":
 			{
-				"buffer_size": 12985,
+				"buffer_size": 14375,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sections/gradient_mapping.tex",
+			"contents": "Searching 140 files for \"Белые пиксели соответствуют свободным клеткам, черные - занятым. \"\n\n/home/shepelev/disser_master/sections/results.tex:\n   78  \\section{Результаты}\n   79  \n   80: В этой части главы описаны результаты проведенных экспериментов на реальных и синтетических наблюдениях. Полученные в результате карты проходимости сравниваются с результатами картирования методом, основанным на обратной модели сонара. На приложенных рисунках белые пиксели соответствуют свободным клеткам, черные - занятым. В приложении \\label{app-a} можно найти остальные результаты работы алгоритмов на реальных и синтетических данных.\n   81  \n   82  \\subsection{Картирование методом градиентного спуска}\n   ..\n  149      (а) & (б) & (в)\n  150    \\end{tabular}\n  151:     \\caption{\\label{results:randomized_inv_result} Результаты восстановления карты проходимости с помощью алгоритма картирования с обратной моделью (б) и методом стохастического градиента (в) на основе синтетических данных, собранных на территории (а). Белые пиксели соответствуют свободным клеткам, черные - занятым. Масштаб карты 10 сантиметров на одну клетку карты. Размер картируемой территории 6 метров на 6 метров. Видно, что картирование методом стохастического градиента хорошо справляется с задачей восстановления дверных проемов и восстанавливает карту проходимости точнее традиционного метода.}\n  152  \\end{table}\n  153  \n  ...\n  161      (а) & (б) & (в)\n  162    \\end{tabular}\n  163:      \\caption{\\label{results:randomized_inv_real_result} Результаты восстановления карты проходимости с помощью алгоритма картирования с обратной моделью (б) и методом стохастического градиента (в) на основе реальных данных, собранных на территории (а). Белые пиксели соответствуют свободным клеткам, черные - занятым. Размер картируемой территории 6 метров на 6 метров. Метод стохастического градиента не смог восстановить точную карту проходимости, однако частично восстановил дверное отверстие, в отличии от метода картирования с обратной моделью, который совершенно провалил эту задачу.}\n  164  \\end{table}\n  165  \n\n3 matches in 1 file\n",
 			"settings":
 			{
-				"buffer_size": 13002,
-				"line_ending": "Unix"
+				"buffer_size": 2094,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
-			"file": "sections/intro.tex",
+			"file": "sections/app-a.tex",
 			"settings":
 			{
-				"buffer_size": 4637,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/den/Desktop/review/critique.tex",
-			"settings":
-			{
-				"buffer_size": 4038,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/den/Desktop/review/review.tex",
-			"settings":
-			{
-				"buffer_size": 3466,
+				"buffer_size": 1462,
 				"line_ending": "Unix"
 			}
 		}
@@ -628,7 +614,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 485.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -652,11 +638,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/den/disser_master",
-		"/home/den/disser_master/sections"
+		"/home/shepelev/disser_master",
+		"/home/shepelev/disser_master/diploma_experiments/gradient_res",
+		"/home/shepelev/disser_master/diploma_experiments/inverse_res",
+		"/home/shepelev/disser_master/sections"
 	],
 	"file_history":
 	[
+		"/home/shepelev/disser_master/sections/random_mapping.tex",
+		"/home/shepelev/disser_master/thesis.aux:0 Label `gradient",
+		"/home/shepelev/disser_master/diploma_experiments/inverse_res/boxes/map.png",
+		"/home/shepelev/disser_master/sections/thrun_forward_mapping.tex",
+		"/home/shepelev/disser_master/sections/inverse_mapping.tex",
+		"/home/shepelev/disser_master/sections/intro.tex",
+		"/home/shepelev/disser_master/presentation.tex",
+		"/home/den/Desktop/review/review.tex",
+		"/home/den/Desktop/review/critique.tex",
 		"/home/den/disser_master/sections/random_mapping.tex",
 		"/home/den/disser_master/sections/thrun_forward_mapping.tex",
 		"/home/den/disser_master/sections/inverse_mapping.tex",
@@ -665,8 +662,6 @@
 		"/home/den/workspace/disser/templates/doctor/autoref.tex",
 		"/home/den/.cache/.fr-GHeO5K/review/review.tex",
 		"/home/den/.cache/.fr-aOlW3j/review/review.tex",
-		"/home/den/Desktop/review/critique.tex",
-		"/home/den/Desktop/review/review.tex",
 		"/home/den/disser_master/review.tex",
 		"/home/den/disser_master/critique.tex",
 		"/home/den/disser_master/sections/gradient_mapping.tex",
@@ -777,14 +772,7 @@
 		"/home/den/ros_workspace/src/adaptive_control/adaptive_controller/launch/controller.launch",
 		"/home/den/workspace/graphics/task2/row_mixed_example.png",
 		"/home/den/workspace/graphics/task2/example_palette.png",
-		"/home/den/workspace/graphics/task2/fs_mixed_example_palette.png",
-		"/home/den/workspace/graphics/task2.py",
-		"/home/den/workspace/graphics/fs_mixed_example.png",
-		"/home/den/workspace/graphics/row_mixed_example.png",
-		"/home/den/workspace/graphics/row_forward_example.png",
-		"/home/den/workspace/graphics/rand_threshold_example.png",
-		"/home/den/workspace/graphics/threshold_example.png",
-		"/home/den/workspace/graphics/dith_with_rand_threshold_example.png"
+		"/home/den/workspace/graphics/task2/fs_mixed_example_palette.png"
 	],
 	"find":
 	{
@@ -812,6 +800,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Белые пиксели соответствуют свободным клеткам, черные - занятым. ",
+			"random fa",
+			"sensitive_diagram",
 			"P",
 			"p",
 			"P",
@@ -925,7 +916,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -934,125 +925,94 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3989,
+						"buffer_size": 3988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								891,
-								891
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 255.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "presentation.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12985,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12071,
-								12071
+								1832,
+								1832
 							]
 						],
 						"settings":
 						{
 							"spell_check": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX Beamer.tmLanguage"
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6470.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 2,
-					"file": "sections/gradient_mapping.tex",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "sections/results.tex",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13002,
+						"buffer_size": 14375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								549,
-								549
+								13859,
+								13859
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1071.0,
+						"translation.y": 3580.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "sections/intro.tex",
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4637,
+						"buffer_size": 2094,
 						"regions":
 						{
-						},
-						"selection":
-						[
-							[
-								3345,
-								3345
-							]
-						],
-						"settings":
-						{
-							"spell_check": false,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/den/Desktop/review/critique.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4038,
-						"regions":
-						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										447,
+										512
+									],
+									[
+										1011,
+										1076
+									],
+									[
+										1708,
+										1773
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
@@ -1063,30 +1023,38 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/home/den/Desktop/review/review.tex",
+					"buffer": 3,
+					"file": "sections/app-a.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3466,
+						"buffer_size": 1462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1091,
-								1091
+								45,
+								45
 							]
 						],
 						"settings":
@@ -1097,7 +1065,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1120,11 +1088,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.382694541231,
 			1.0
 		],
 		"rows":
